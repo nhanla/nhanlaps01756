@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QuanLyNhaTro", "WindowsApplication1\QuanLyNhaTro.vbproj", "{B27E3556-9C98-4D58-9D7A-5DBC2986B8A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{DA5CD3FA-96E5-45B1-8D82-1666CA06C321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B27E3556-9C98-4D58-9D7A-5DBC2986B8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27E3556-9C98-4D58-9D7A-5DBC2986B8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27E3556-9C98-4D58-9D7A-5DBC2986B8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27E3556-9C98-4D58-9D7A-5DBC2986B8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
