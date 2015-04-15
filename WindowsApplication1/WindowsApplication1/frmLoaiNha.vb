@@ -7,6 +7,7 @@ Public Class frmLoaiNha
     'Khai báo ketnoi để tạo kết nối thông qua chuỗi
     Dim ketnoi As SqlConnection = New SqlConnection(chuoiketnoi)
 
+    'Sự kiện load frmLoaiNha chỉnh sửa lại bởi neonle93
     Private Sub frmLoaiNha_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Khai báo truyvan để thực hiện truy vấn
         Dim truyvan As SqlDataAdapter = New SqlDataAdapter("select MaLoaiNha as 'Mã loại nhà', Mota As 'Mô tả' from LoaiNha", ketnoi)
